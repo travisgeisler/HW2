@@ -1,21 +1,33 @@
 
 body { background: #B1BFE3; }
-h1{text-align:center;font-weight:bold;}
-h2{text-align:left; font-weight:bold;}
+h1{text-align:center;font-weight:bold;font-size:30pt;}
+h2{text-align:center;font-weight:bold;font-size:18pt;}
 
 
 
 .columnl {
-	width: 50%;
+	width: 45%;
 	float: left; 
+	padding-left: 50px;
 }
 .columnr {
-	width: 50%;
+	width: 45%;
 	float: right;
+	padding-right: 50px;
 }
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+.columnls {
+	width: 40%;
+	float: left; 
+	padding-left: 110px;
+}
+.columnrs {
+	width: 40%;
+	float: right;
+	padding-right: 0px;
 }
