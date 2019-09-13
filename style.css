@@ -1,0 +1,21 @@
+
+body { background: #B1BFE3; }
+h1{text-align:center;font-weight:bold;}
+h2{text-align:left; font-weight:bold;}
+
+
+
+.columnl {
+	width: 50%;
+	float: left; 
+}
+.columnr {
+	width: 50%;
+	float: right;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
