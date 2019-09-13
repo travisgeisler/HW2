@@ -2,9 +2,15 @@
 body { background: #B1BFE3; }
 h1{text-align:center;font-weight:bold;font-size:30pt;}
 h2{text-align:center;font-weight:bold;font-size:18pt;}
+h3{text-align:left;font-weight:bold;font-size:17pt;}
+p1{font-size: 10pt;}
+p2{padding: 2px; border: #BFBDB6 solid 1.5pt; background: #E6E3DA;}
 
 
-
+.img {
+	border: black solid;
+	margin-left: 150px;
+}
 .columnl {
 	width: 45%;
 	float: left; 
@@ -20,6 +26,12 @@ h2{text-align:center;font-weight:bold;font-size:18pt;}
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+.centerres {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 38%;
 }
 .columnls {
 	width: 40%;
